@@ -1,0 +1,11 @@
+{
+  "name": "faustao-errou",
+  "version": "1.0.0",
+  "description": "Errrrooooouuuuuu!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Bruno Orlandi <brorlandi@gmail.com>",
+  "license": "MIT"
+}
