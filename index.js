@@ -4,11 +4,12 @@ const exect = require('child_process').exec;
 const path = require('path');
 const fs = require('fs');
 
-var soundPath = path.join(path.dirname(fs.realpathSync(__filename)), './faustao-errou');
+const mainPath = path.dirname(fs.realpathSync(__filename));
+const soundPath = path.join(mainPath, './faustao-errou');
 
 const faustaoErrou = function (){
     const linuxcmd = 'paplay '+soundPath+'.ogg';
-    const windowscmd = 'forWindows.vbs '+soundPath+'.mp3';
+    const windowscmd = path.join(mainPath, './forWindows.vbs')+' '+soundPath+'.mp3';
 
     const platform = process.platform;
 
