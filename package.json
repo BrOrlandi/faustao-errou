@@ -1,6 +1,6 @@
 {
   "name": "faustao-errou",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Errrrooooouuuuuu!",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "author": "Bruno Orlandi <brorlandi@gmail.com>",
   "license": "MIT",
-  "bin":{
-      "errou":"./index.js"
+  "bin": {
+    "errou": "./index.js"
   }
 }
