@@ -22,7 +22,6 @@ const faustaoErrou = function (){
 
     function exec(cmd){
         return exect(cmd, function (error, stdout, stderr) {
-           console.log(stdout);
            if(error)
                console.error(error);
         });

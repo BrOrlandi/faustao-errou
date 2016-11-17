@@ -6,9 +6,17 @@
   "scripts": {
     "start": "node index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BrOrlandi/faustao-errou.git"
+  },
   "author": "Bruno Orlandi <brorlandi@gmail.com>",
   "license": "MIT",
   "bin": {
     "errou": "./index.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/BrOrlandi/faustao-errou/issues"
+  },
+  "homepage": "https://github.com/BrOrlandi/faustao-errou#readme"
 }
