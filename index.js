@@ -10,7 +10,8 @@ const soundPath = path.join(mainPath, './faustao-errou');
 const faustaoErrou = function (){
     const linuxcmd = 'paplay '+soundPath+'.ogg';
     const windowscmd = path.join(mainPath, './forWindows.vbs')+' '+soundPath+'.mp3';
-
+    const maccmd = 'afplay '+soundPath+'.mp3';
+    
     const platform = process.platform;
 
     if(platform === 'linux'){
@@ -18,6 +19,8 @@ const faustaoErrou = function (){
     }
     else if(platform === 'win32'){
         return exec(windowscmd);
+    } else if(platform === 'darwin'){
+        return exec(maccmd);
     }
 
     function exec(cmd){
