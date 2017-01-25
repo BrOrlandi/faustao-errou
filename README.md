@@ -8,7 +8,7 @@ Play famous "errrrouuu" sound by Faustão.
 
 - [x] Linux
 - [x] Windows
-- [ ] Mac
+- [x] Mac
 
 ## Installing
 Install globally:
