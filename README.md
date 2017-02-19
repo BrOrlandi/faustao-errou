@@ -1,5 +1,9 @@
 # Faustão Errou!!
 
+<p align="center">
+    <img src="./errou.gif"/>
+</p>
+
 > Errouuuuuu!
 
 Play famous "errrrouuu" sound by Faustão.
